@@ -1,0 +1,221 @@
+* {
+font-family: 'Roboto Mono', monospace;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+#main_header {
+    display: flex;
+    align-items: center;
+}
+#main_conteiner {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#main_header_logo {
+    margin-left: 8px;
+}
+#main_header_logo span {
+    margin-left: 10px;
+    font-size: 24px;
+    color: rgb(39, 6, 92);
+}
+#main_header_logo span,
+#main_header_logo img {
+    vertical-align: middle;
+}
+.menu {
+    margin-left: 150px;
+}
+.menu-item {
+    font-size: 18px;
+    color: rgb(39, 6, 92);
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+.menu-item:hover {
+    border-bottom: 2px solid rgb(39, 6, 92);
+}
+#main_header_phone {
+    margin-left: 100px;
+}
+#main_header_phone span {
+    margin-left: 10px;
+    font-size: 18px;
+    color: rgb(39, 6, 92);
+}
+#main_header_phone span,
+#main_header_phone img {
+    vertical-align: middle;
+}
+#main_conteiner {
+    background-image: url(https://cs11.pikabu.ru/post_img/big/2018/08/08/6/153371976112234099.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+#main_content {
+    margin-left: 60px;
+    margin-top: 200px;
+    display: left;
+}
+#main_title {
+    font-size: 36px;
+    letter-spacing: 2.5px;
+    color: rgb(39, 6, 92);
+}
+.main_item span,
+.main_item img {
+    vertical-align: middle;
+}
+
+#main_item {
+    margin-top: 20px;
+
+}
+.main_item {
+    margin-top: 15px;
+}
+.main_item span {
+    font-size: 22px;
+    color: rgb(39, 6, 92);
+}
+.button {
+    background-color: rgba(109, 85, 132, 0.7);
+    box-shadow: 3.5px, 3.5px, 20px, 3px rgba (160, 121, 121, 0.5),;
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: black;
+    font-size: 20px;
+    letter-spacing: .5px;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: rgba(109, 85, 132, 0.9);
+    box-shadow: 3.5px, 3.5px, 50px, 3px rgba (160, 121, 121, 0.5),;
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: black;
+    font-size: 20px;
+    letter-spacing: .5px;
+}
+#about {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#about #about_item {
+    margin-top: 40px;
+    margin-left: 60px;
+    max-width: 500px;
+}
+#about_item .title {
+    font-size: 36px;
+    letter-spacing: 2.5px;
+    color: rgb(39, 6, 92);
+}
+#about_item span {
+    font-size: 22px;
+    color: rgb(39, 6, 92);
+}
+#about_item_quote {
+    margin: 40px 60px;
+    display: flex;
+}
+#about_item_quote .about_item_img {
+    float: left;
+    padding-top: 30px;
+}
+#about_item_quote .about_item_text {
+    float: right;
+    width: 300px;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 22px;
+    color: rgb(39, 6, 92);
+}
+#pets {
+    max-width: 1170px;
+    margin-top: 50px;
+    display: inline-block;
+}
+#pets_title {
+    margin-top: 50px;
+}
+.title {
+    font-size: 36px;
+    letter-spacing: 2.5px;
+    color: rgb(39, 6, 92);
+    margin-left: 60px;
+}
+.pets {
+    
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    
+}
+#pets_item {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+}
+.pets_item_text {
+    font-size: 18px;
+    color: rgb(39, 6, 92);
+}
+#pets_item .pets_item {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+#visit_conteiner {
+    width: 1200px;
+    margin: 0 auto;
+}
+#visit_conteiner p {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+
+#visit {
+    max-width: 1700px;
+    margin: 20px auto;
+    height: 300px;
+    background-image: url(https://sun1-27.userapi.com/impf/c824603/v824603843/167138/_Uo4ShG_aQQ.jpg?size=1024x784&quality=96&sign=63eff8076922f2f2d51bf92e5472f2bc&type=album);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+form {
+    padding-top: 100px;
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
